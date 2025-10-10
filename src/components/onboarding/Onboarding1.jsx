@@ -19,8 +19,8 @@ const Onboarding1 = () => {
 
       {/* Pagination Dots */}
       <div className="flex justify-center items-center gap-2 mt-6 mb-10">
-        <span className="w-2.5 h-2.5 bg-gray-400 rounded-full"></span>
-        <span className="w-3 h-3 bg-white rounded-full shadow-md"></span>
+        <span className="w-2.5 h-2.5 bg-white rounded-full"></span>
+        <span className="w-3 h-3 bg-gray-400 rounded-full shadow-md"></span>
         <span className="w-2.5 h-2.5 bg-gray-400 rounded-full"></span>
       </div>
       

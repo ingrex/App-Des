@@ -29,7 +29,7 @@ const Forecast = () => {
   const days = forecast.list.filter((_, index) => index % 10 === 0).slice(0, 10);
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-green-400 to-yellow-400 text-white p-6"
+    <div className=" bg-cover min-h-screen bg-gradient-to-b from-green-400 to-yellow-400 text-white p-6"
     style={{ backgroundImage: `url(${weatherBg})` }}>
       {/* Back Button */}
       <button
