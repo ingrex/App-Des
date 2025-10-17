@@ -1,6 +1,6 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
-import weatherIcon from "../../assets/onboarding2.png"; // ✅ make sure this file exists
+import weatherIcon from "../../assets/onboarding2.png";
 
 const Onboarding2 = () => {
   const navigate = useNavigate();
